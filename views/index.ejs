@@ -1,0 +1,11 @@
+<div class="my-2">
+    <p>Index page</p>
+    <p>Users:</p>
+    <ul>
+        <% usersDatabase.forEach((user)=> { %>
+            <li>
+                <%= user.username %>
+            </li>
+            <% }); %>
+    </ul>
+</div>
